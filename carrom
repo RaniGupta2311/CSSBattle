@@ -1,0 +1,37 @@
+
+  <div id="a"></div>
+  <div id="b"></div>
+  <div id="c"></div>
+  <div id="d"></div>
+
+<style>
+  body{
+    margin:0;
+     background-color:#62374e;
+    postion:relative;
+  }
+  div{
+    height:50px;
+    width:50px;
+    background-color:#fdc57b;
+  }
+  #a{
+    position:absolute;
+    top:50px;
+    left:50px
+  }
+    #b{
+    position:absolute;
+    top:50px;
+    right:50px
+  }
+  #c{
+    position:absolute;
+    bottom:50px;
+    left:50px
+  }
+#d{
+    position:absolute;
+    bottom:50px;
+    right:50px
+  }
