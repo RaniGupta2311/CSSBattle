@@ -1,0 +1,33 @@
+<div id="a"></div>
+<div id="b"></div>
+<div id="c"></div>
+<style>
+ body{
+   margin:0;
+   background-color:#E3516E;
+   position:relative;
+ }
+  div{
+    width:100px;
+    height:100px;
+    position:absolute;
+  }
+  #a{
+    border-top-left-radius:100%;
+    top:50px;
+    left:100px;
+    background-color:#51B5A9;
+  }
+    #b{
+    border-top-right-radius:100%;
+    top:50px;
+    right:100px;
+    background-color:#FADE8B;
+  }
+    #c{
+    border-bottom-left-radius:100%;
+    bottom:50px;
+    left:100px;
+    background-color:#F7F3D7;
+  }
+</style>
