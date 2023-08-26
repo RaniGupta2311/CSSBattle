@@ -1,0 +1,51 @@
+<div id="circle-center"></div>
+<div id="square-blue"></div>
+<div id="rectangle-blue"></div>
+<div id="big-grey-square-center"></div>
+<style>
+ body{
+   margin:0;
+   background-color:#222730;
+   position:relative;
+ }
+  #circle-center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:50px;
+    height:50px;
+    background-color:#393E46;
+    border-radius:100%;
+    z-index:50;
+  }
+  #square-blue{
+    height:150px;
+    width:150px;
+    background-color:#4CAAB3;
+     position:absolute;
+    top:25%;
+    left:125px;
+    transform:rotate(45deg);
+    z-index:1;
+    /* transform:translate(-50%,-50%); */
+  }
+  #rectangle-blue{
+    width:100%;
+    height:150px;
+    position:absolute;
+    left:0;
+    top:75px;
+    background-color:#4CAAB3;
+   
+  }
+    #big-grey-square-center{
+    width:250px;
+    height:250px;
+    position:absolute;
+    transform:rotate(45deg);
+    top:25px;
+    left:75px;
+    background-color:#222730;
+  }
+</style>
