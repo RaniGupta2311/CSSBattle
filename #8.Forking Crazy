@@ -1,0 +1,83 @@
+
+<div id="stick"></div>
+ <div id="rectangle"></div> 
+    <div id="a"></div>
+    <div id="b"></div>
+    <div id="c"></div>
+    <div id="d"></div>
+    <div id="e"></div>
+    <div id="f"></div>
+    <div id="g"></div>
+<style>
+ body{
+   margin:0;
+   background-color:#6592CF;
+   display:flex;
+   justify-content:center;
+  align-items:center;
+ }
+  #rectangle{
+    width:140px;
+    height:100px;
+    position:absolute;
+    bottom:50px;
+    background-color:#060F55;
+    border-bottom-left-radius:70px;
+    border-bottom-right-radius:70px;
+  }
+  #a,#c,#e,#g{
+    width:20px;
+    height:110px;
+    position:absolute;
+   background-color:#060F55;
+    border-top-left-radius:70px;
+    border-top-right-radius:70px;
+  }
+  #a{
+    left:130;
+    bottom:140;
+  }
+   #c{
+    left:170;
+    bottom:140;
+  }
+    #e{
+    left:210;
+    bottom:140;
+  }
+    #g{
+    left:250;
+    bottom:140;
+  }
+  #b,#d,#f{
+     width:20px;
+    height:110px;
+   background-color:#6592CF;
+    position:absolute;
+     border-bottom-left-radius:70px;
+    border-bottom-right-radius:70px;
+    /* border:2px solid red; */
+  }
+    #b{
+    left:150;
+    bottom:140;
+  }
+    #d{
+    left:190;
+    bottom:140;
+  }
+    #f{
+    left:230;
+    bottom:140;
+  }
+  #stick{
+    width:20px;
+    height:55px;
+    background-color:#060F55;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%)
+  }
+ 
+</style>
