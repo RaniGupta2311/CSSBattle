@@ -1,0 +1,45 @@
+<div id="circle"></div>
+
+<style>
+ body{
+   margin:0;
+   background-color:#191210;
+   position:relative;
+ }
+  #circle{
+    width:50px;
+    height:50px;
+    background-color:#84271C;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:50%;
+    border:25px solid #191210;
+    box-shadow:0 0 0 20px #ECA03D;
+  }
+  #circle:before,#circle:after{
+    content:'';
+    position:absolute;
+    width:100px;
+    height:50px;
+    box-sizing:border-box;
+    border:20px solid #ECA03D;
+  }
+   #circle:before{
+     top:50%;
+     left:-25px;
+     transform:translate(-100%,0);
+     border-top:0;
+     border-bottom-left-radius:110px;
+     border-bottom-right-radius:110px;
+   }
+    #circle:after{
+       border-top-left-radius:110px;
+     border-top-right-radius:110px;
+       border-bottom:0;
+     bottom:50%;
+     right:-25px;
+     transform:translate(100%,0);
+   }
+</style>
