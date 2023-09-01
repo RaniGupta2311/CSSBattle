@@ -1,0 +1,44 @@
+<div id="a"></div>
+<div id="d"></div>
+<div id="b"></div>
+<div id="c"></div>
+<style>
+  body{
+    background-color:#F2F2B6;
+    margin:0;
+    position:relative;
+  }
+  div{
+    width:0px;
+    height:0px;
+    position:absolute;
+    top:50%;
+    border-style:solid;
+  }
+  #a {
+    left:50%;
+    transform:translate(-140px,-50%);
+    border-width:130px 75px 0 75px;
+    border-color:#FF6D00 transparent transparent;
+    z-index:3
+  }
+    #d {
+    left:50%;
+    transform:translate(-120px,-50%);
+    border-width:130px 75px 0 75px;
+    border-color:#FD4602 transparent transparent;
+  }
+  #b{
+    right:50%;
+    transform:translate(120px,-50%);
+    border-width:0 75px 130px 75px;
+    border-color:transparent transparent #FD4602;
+    z-index:3; 
+  }
+    #c{
+     right:50%;
+    transform:translate(140px,-50%);
+    border-width:0 75px 130px 75px;
+    border-color:transparent transparent #FF6D00;
+  }
+</style>
