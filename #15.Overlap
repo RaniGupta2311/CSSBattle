@@ -1,0 +1,35 @@
+<div id="a"></div>
+<div id="b"></div>
+<style>
+  body{
+    background-color:#09042A;
+    margin:0;
+  }
+  div{
+    width: 150px;
+    height: 150px;
+    position:absolute;
+    top:150px;
+    transform:translate(-50%,-50%);
+    border-radius:50%
+  }
+  #a {
+    background: #7B3F61;
+    left:150px;
+  }
+  #b{
+    background-color:#E78481;
+    left:250px;
+    overflow:hidden
+  }
+  #b:before{
+    content:'';
+    width:100%;
+    height:100%;
+    background-color:#09042A;
+    position:absolute;
+    top:0;
+    left:-100px;
+    border-radius:50%;
+  }
+</style>
