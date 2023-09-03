@@ -1,0 +1,33 @@
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<style>
+  body {
+    background: #5C434C;
+    margin:10px;
+    padding:0;
+    display:grid;
+    grid-template-rows:repeat(3,auto);
+    grid-auto-flow:column;
+    grid-gap:20px;
+  }
+  div{
+    width:80px;
+    height:80px;
+    background-color:#F09462;
+    border-top-left-radius:100%;
+  }
+
+  div:nth-child(even){
+    background-color:#F5D6B4;
+  }
+</style>
