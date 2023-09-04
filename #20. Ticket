@@ -1,0 +1,72 @@
+<div id="a"></div>
+<div id="b"></div>
+<div id="circle-center-top"></div>
+<div id="circle-center-bottom"></div>
+<style>
+  body{
+    background-color:#62306D;
+    margin:0;
+  }
+  #a {
+    width: 140px;
+    height: 100px;
+    background: #F7EC7D;
+    position:absolute;
+    top:150px;
+    left:100;
+    transform:translateY(-50%);
+  }
+  #b{
+    width: 60px;
+    height: 100px;
+    background: #E38F66;
+    position:absolute;
+    top:150px;
+    left:240px;
+    transform:translateY(-50%);
+  }
+  #a:before,#a:after{
+    content:'';
+    width:40px;
+    height:40px;
+    background-color:#62306D;
+    position:absolute;
+    border-radius:50%;
+    left:-20px;
+  }
+  #a:before{
+     top:-20px;
+  }
+   #a:after{
+    bottom:-20px;
+  }
+    #b:before,#b:after{
+    content:'';
+    width:40px;
+    height:40px;
+    background-color:#62306D;
+    position:absolute;
+    border-radius:50%;
+    right:-20px;
+  }
+  #b:before{
+     bottom:-20px;
+  }
+    #b:after{
+      top:-20px;
+  }
+  #circle-center-top,#circle-center-bottom{
+    width:20px;
+    height:20px;
+    background-color:#62306D;
+    position:absolute;
+    left:230px;
+    border-radius:50%;
+  }
+    #circle-center-top{
+    top:90px;
+  }
+    #circle-center-bottom{
+    bottom:90px;
+  }
+</style>
