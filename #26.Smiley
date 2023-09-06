@@ -1,0 +1,42 @@
+<div id="a-left"></div>
+<div id="b-right"></div>
+<div id="c-bottom"></div>
+<style>
+  body{
+    background-color:#6592CF;
+    margin:0;
+    padding:0;
+  }
+  #a-left,#b-right{
+    width: 80px;
+    height: 40px;
+    position:absolute;
+    background: #6592CF;
+    border-top-left-radius:100px;
+    border-top-right-radius:100px;
+    border:20px solid #060F55;
+    border-bottom:0;
+    
+  }
+  #a-left{
+    top:40px;
+    left:40px;
+  }
+    #b-right{
+    top:40px;
+    right:40px;
+  }
+    #c-bottom{
+    width: 80px;
+    height: 40px;
+    position:absolute;
+    background: #6592CF;
+    bottom:40px;
+    left:140px;
+    border:20px solid #060F55;
+    border-top:0;
+    border-bottom-left-radius:100px;
+    border-bottom-right-radius:100px;
+  }
+
+</style>
