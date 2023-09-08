@@ -1,0 +1,33 @@
+<div id="a"></div>
+<div id="b"></div>
+<div id="c-center"></div>
+<style>
+  body{
+    background-color:#FFFFFF;
+    margin:0;
+  }
+  #a,#b,#c{
+    width: 50px;
+    height: 200px;
+    position:absolute;
+    top:50%;
+    left:50%;
+  }
+  #a{
+    background-color: #F3AC3C;
+    transform:translate(-50%,-50%) rotate(-45deg);
+  }
+  #b{
+    background-color: #A3A368;
+    transform:translate(-50%,-50%) rotate(45deg);
+  }
+  #c-center{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%) rotate(45deg);
+    background-color: #FBE18C;
+  }
+</style>
