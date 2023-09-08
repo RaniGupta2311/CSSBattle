@@ -1,0 +1,28 @@
+<div id="a"></div>
+<div id="b"></div>
+<style>
+  body{
+    background-color:#AA445F;
+    margin:0;
+  }
+  #a,#b{
+    width: 100px;
+    height: 200px;
+    position:absolute;
+    top:50%;
+    left:50%;
+  }
+  #a{
+    background-color: #F7EC7D;
+    border-top-left-radius:100px;
+    border-bottom-left-radius:100px;
+    transform:translate(-125%,-50%);
+  }
+  #b{
+    background-color: #E38F66;
+    border-top-right-radius:100px;
+    border-bottom-right-radius:100px;
+    transform:translate(25%,-50%);
+  
+  }
+</style>
