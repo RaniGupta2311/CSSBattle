@@ -1,0 +1,31 @@
+<div id="a"></div>
+<div id="b"></div>
+<div id="c"></div>
+</div>
+<style>
+  body{
+    background-color:#E3516E;
+    }
+  div{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+  }
+  #a {
+    width: 184px;
+    height: 184px;
+    background: #FADE8B;
+  }
+  #b,#c{
+    width:30px;
+    height:265px;
+    background-color:#E3516E;
+  }
+  #b{
+    transform:translate(-50%,-50%) rotate(45deg)
+  }
+   #c{
+    transform:translate(-50%,-50%) rotate(-45deg)
+  }
+</style>
