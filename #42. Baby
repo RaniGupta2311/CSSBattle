@@ -1,0 +1,48 @@
+<div></div>
+<p></p>
+<style>
+  body{
+    background-color:#293462;
+  }
+  div {
+    width: 100px;
+    height: 200px;
+    background: #FE5F55;
+    position:absolute;
+    top:50px;
+    left:100px;
+    border-top-left-radius:100px;
+    border-bottom-left-radius:50px;
+    overflow:hidden;
+    -webkit-box-reflect:right;
+  }
+  div:before{
+    content:'';
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    position:absolute;
+    top:90px;
+    left:20px;
+    background-color:#FFF1C1
+  }
+    div:after{
+    content:'';
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    position:absolute;
+    top:-50px;
+    left:0px;
+    background-color:#FFF1C1
+  }
+  p{
+    width:40px;
+    height:10px;
+    background-color:#FFF1C1;
+    position:absolute;
+    bottom:54px;
+    left:180px;
+    border-radius:10px;
+  }
+</style>
