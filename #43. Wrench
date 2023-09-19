@@ -1,0 +1,25 @@
+<div></div>
+<style>
+  body{
+    background-color:#6592CF;
+    display:flex;
+    justify-content:center;
+    margin:0;
+  }
+  div {
+    width: 110px;
+    position:relative;
+    overflow:hidden;
+  }
+  div:before{
+    content:'';
+    width:300px;
+    height:182px;
+    border:30px solid #243D83;
+    position:absolute;
+    top:30px;
+    right:calc(50% - 15px);
+    border-radius:70px;
+    -webkit-box-reflect:right -30px;
+  }
+</style>
