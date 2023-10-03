@@ -1,0 +1,73 @@
+<div></div>
+<span id="a"></span>
+<span id="b"></span>
+<span id="c"></span>
+<p></p>
+<style>
+  body{
+    background-color:#1A4341;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #F3AC3C;
+    border-radius:50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    z-index:2
+  }
+  div:before,div:after{
+    content:'';
+    background:#998235;
+    border-radius:50%;
+    position:absolute;
+    
+  }
+  div:before{
+    width:30px;
+    height:30px;
+    top:20px;
+    left:20px;
+  }
+  div:after{
+    width:20px;
+    height:20px;
+    top:65px;
+    left:40px;
+  }
+  span{
+    width:10px;
+    height:180px;
+    background-color:#F3AC3C;
+    position:absolute;
+    border-radius:10px;
+    position:absolute;
+    
+  }
+  #a{
+   top:50px;
+    left:195px;
+  }
+    #b{
+   top:65px;
+    left:202px;
+      transform:rotate(-60deg)
+  }
+    #c{
+   top:55px;
+  left:206px;
+    transform:rotate(60deg)
+  }
+  p{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+    background-color:#998235;
+    position:absolute;
+    top:104px;
+    left:220px;
+    z-index:5;
+  } 
+</style>
