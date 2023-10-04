@@ -1,0 +1,27 @@
+<div></div>
+<style>
+  body {
+    margin:0;
+    background: #F5D6B4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  div{
+    width:150px;
+    height:150px;
+    background-color:#D86F45; 
+  }
+  div:before,div:after{
+    content:"";
+    width:50px;
+    height:250px;
+    position:absolute;
+    background-color:#D86F45;
+     top:25px;
+    left:175px;
+  }
+  div:after{
+    transform:rotate(90deg)
+  }
+</style>
