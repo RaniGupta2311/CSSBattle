@@ -1,0 +1,33 @@
+<div></div>
+<style>
+  body{
+    background-color:#926927;
+  }
+  div {
+    top:170px;
+    right:50px;
+    background-color:#6D480A;
+    transform:translate(-50%,-50%);
+  }
+  div,div:before,div:after{
+    width:100px;
+    height:100px;
+    position:absolute;
+    border-top-left-radius:100px;
+    border-bottom-right-radius:100px;
+  }
+  div:before,div:after{
+    content:'';
+  }
+  div:before{
+    background-color:#6D480A;
+    left:-100px;
+    transform:rotate(-90deg)
+  }
+   div:after{
+    background-color:#FFFFFF;
+    transform:rotate(-45deg);
+    top:-20px;
+    left:-50px;
+  }
+</style>
