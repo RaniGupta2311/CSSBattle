@@ -1,0 +1,29 @@
+<dl><p><p><p></p></dl>
+  <i>
+<style>
+  body{
+    background-color:#784972;
+    margin:74 60;
+  }
+  p {
+    float:left;
+    width: 100px;
+    height: 150px;
+    background: #F7FFCF;
+    border-radius:50%;
+    border:10px solid #784972;
+    margin-right:-80
+  }
+  dl{
+    -webkit-box-reflect:right -280px;}
+  i{
+    position:absolute;
+    top:50px;
+    left:189px;
+    width:22px;
+    height:60px;
+    background-color:#F7FFCF;
+    z-index:2;
+    border-radius:50px 50px 0 0;
+  }
+</style>
