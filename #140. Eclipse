@@ -1,0 +1,25 @@
+<div id="cir"></div>
+<div id="tri"></div>
+<style>
+  body{background:#4F77FF}
+  #cir { width:80px;height: 80px;
+    background: #FFFFFF;
+    border-radius:50%;position:absolute;top:50px;
+    left:160px;
+  }
+  #cir:before{
+    content:'';
+    width:80px;height:80px;background:#4F77FF;
+    position:absolute;
+    top:40px;border-radius:50%;
+  }
+  #tri{
+    width:250px;
+    height:250px;
+    background-color:#1038BF;
+    transform:rotate(45deg);
+    position:absolute;
+    top:190px;
+    left:75px;
+  }
+</style>
